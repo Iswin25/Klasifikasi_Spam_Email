@@ -120,7 +120,7 @@ Hasilnya adalah model Naive Bayes siap memprediksi.
 
 ---
 
-# **6. Evaluasi Model**
+## **6. Evaluasi Model**
 
 Mengukur kemampuan model memprediksi email yang belum pernah dilihat.
 
@@ -156,7 +156,7 @@ Dalam kasus email, **false positive** sangat penting untuk diminimalkan.
 
 ---
 
-# **7. Implementasi / Prediksi**
+## **7. Implementasi / Prediksi**
 
 Tahap ini biasanya dipakai untuk sistem nyata:
 
@@ -175,7 +175,7 @@ Tambahan opsional:
 
 ---
 
-# **8. Deployment (opsional)**
+## **8. Deployment (opsional)**
 
 Jika mau pakai di sistem nyata:
 
@@ -186,7 +186,7 @@ Jika mau pakai di sistem nyata:
 
 ---
 
-# **Ringkasan Sederhana Alur Naive Bayes Spam Filter**
+## **Ringkasan Sederhana Alur Naive Bayes Spam Filter**
 
 1. **Dataset**
 2. **Preprocessing**
