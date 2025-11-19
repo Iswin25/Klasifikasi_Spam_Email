@@ -40,20 +40,17 @@ Teks email mentah biasanya:
 
 #### Tahapan preprocessing:  
 
-a. Lowercasing  
-b. Remove HTML tags  
-c. Hapus URL, email, angka, dan simbol tidak relevan  
-d. Tokenization  
-e. Stopword removal  
-f. Stemming atau Lemmatization  
+  a. Lowercasing  
+  b. Remove HTML tags  
+  c. Hapus URL, email, angka, dan simbol tidak relevan   
+  d. Tokenization  
+  e. Stopword removal  
+  f. Stemming atau Lemmatization  
 
 Tujuan preprocessing adalah membuat teks lebih bersih dan konsisten sehingga Naive Bayes dapat menangkap pola statistik dengan akurat.
 
 ---
-
 ## 3. Ekstraksi Fitur
-
-Teks perlu diubah menjadi angka. Dua metode paling populer:
 
 ### A. Bag of Words (CountVectorizer)
 
