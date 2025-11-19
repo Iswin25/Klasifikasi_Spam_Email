@@ -40,27 +40,26 @@ Teks email mentah biasanya:
 
 #### Tahapan preprocessing:  
 
-  a. Lowercasing  
-  b. Remove HTML tags  
-  c. Hapus URL, email, angka, dan simbol tidak relevan   
-  d. Tokenization  
-  e. Stopword removal  
-  f. Stemming atau Lemmatization  
+1. Lowercasing  
+2. Remove HTML tags  
+3. Hapus URL, email, angka, dan simbol tidak relevan  
+4. Tokenization  
+5. Stopword removal  
+6. Stemming atau Lemmatization  
 
 Tujuan preprocessing adalah membuat teks lebih bersih dan konsisten sehingga Naive Bayes dapat menangkap pola statistik dengan akurat.
 
 ---
 ## 3. Ekstraksi Fitur
 
-### A. Bag of Words (CountVectorizer)
+  * Bag of Words (CountVectorizer)
+  * Menghitung frekuensi kata dalam email.
 
-Menghitung frekuensi kata dalam email.
+**Contoh:**
+- email = "free money click"
+- fitur = {free:1, money:1, click:1}
 
-Contoh:
-email = "free money click"
-fitur = {free:1, money:1, click:1}
-
-### **B. TF-IDF (Term Frequency - Inverse Document Frequency)**
+### B. TF-IDF (Term Frequency - Inverse Document Frequency)
 
 Memberikan bobot lebih tinggi ke kata yang unik dan penting.
 
